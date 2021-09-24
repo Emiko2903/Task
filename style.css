@@ -1,0 +1,23 @@
+.task {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(40, 18, 235);
+    margin: 500px 500px;
+    animation: task 1s linear 1s infinite normal;
+    border-radius: 10px;
+    animation-direction: alternate-reverse;
+    display: flex;
+}
+
+@keyframes task {
+    from {
+        width: 400px;
+        margin: 500px 500px;
+        background-color: rgb(40, 18, 235);
+    }
+    to {
+        width: 100px;
+        margin: 700px 500px;
+        background-color: rgb(99, 243, 219);
+    }
+}
